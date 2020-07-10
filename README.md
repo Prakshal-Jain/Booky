@@ -9,5 +9,5 @@ Specs:
 - Search integrated
 These are some of the screenshots of a few pages of the website. It is fully complete with both frontend and backend done. If you need some customizations, I am ready for that!
 
-If you are interested in getting it, please reach out to me!
+If you are interested in getting it, please reach out to me!<br/>
 Email: <a href="mailto:prakshal@buffalo.edu">prakshal@buffalo.edu</a>
