@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booky</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+</head>
+<body>
+{% include 'header.html' %}
+{% block content %}
+
+{% endblock %}
+<script src="{% static 'js/homepage.js' %}"></script>
+</body>
+</html>

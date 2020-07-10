@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div id="myUL">
+{% for item in data %}
+<label>
+  <div class="wrapper">
+    <div class="product-img">
+      <img src="media/{{ item.obj.book_image }}" height="420" width="327" onclick="window.open('media/{{ item.obj.book_image }}', '_blank');" title="Click to see full image">
+    </div>
+    <div class="product-info">
+      <div class="product-text">
+        <h1><a>{{ item.obj.Book_Name }}</a></h1>
+        <h2>by <a>{{ item.obj.author }}</a></h2>
+        <p>{{ item.obj.description }} <br/><b>Location: </b><a>{{ item.obj.location }}</a></p>
+      </div>
+      <div class="product-price-btn">
+        <p>$<span>{{ item.obj.price }}</span></p>
+      </div>
+    </div>
+  </div>
+</label>
+{% endfor %}
+</div>
+{% endblock %}
